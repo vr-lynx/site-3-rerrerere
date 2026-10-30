@@ -1,0 +1,1063 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 1920px;
+    height: 955px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Rectangle 30.png");
+}
+.nav1{
+    width: 7%;
+    height: 100%;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;;
+}
+.nav1 img{
+    cursor: pointer;
+}
+.nav1_top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.nav1_top img{
+    padding-top: 15px;
+}
+.nav1_bot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.nav1_bot li{
+    list-style: none;
+}
+.nav2{
+    width: 1800px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.top_nav2{
+    width: 1800px;
+    height: 180%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    flex-direction: column;
+}
+.top_nav2 ul{
+    width: 35%;
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 40px;
+}
+.top_nav2 ul li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.top_nav2 ul li a button{
+    background-color: #B59571;
+    color: white;
+    border: none;
+    width: 145px;
+    height: 42px;
+    cursor: pointer;
+}
+.bot_nav2{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;   
+}
+.bot_nav2 h1{
+    color: white;
+    font-size: 42px;
+    width: 55%;
+    height: 40%;
+}
+.sec1{
+    width: 80%;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 320px;
+}
+.o_restorane{
+    width: 18%;
+    height: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+
+}
+.o_restorane_text{
+    width: 60%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 150px;
+}
+.rest_text{
+    width:100px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+}
+.rest_text p{
+    font-size: 42px;
+    font-weight: bold;
+}
+.rest_moretext{
+    width: 50%;
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+}
+.sec2{
+    width: 80%;
+    height: 750px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 320px;
+}
+.top_menu{
+    width: 12%;
+    height: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.under_menu{
+    width: 58%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    margin-left: 150px;
+}
+.topleft_menu{
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.topleft_menu p{
+    font-size: 42px;
+    font-weight: bold;
+}
+.topright_menu{
+    width: 50%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    margin-bottom: 115px;
+}
+.bot_menu{
+    width: 58%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 230px;
+}
+.left_botmenu{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.botmenu_info{
+    width: 70%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right_botmenu{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec3{
+    width: 80%;
+    height: 750px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 320px;
+}
+.delivery{
+    width: 15%;
+    height: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about_delivery{
+    width: 58%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    margin-left: 150px;
+}
+.left_delivery{
+    width: 100px;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.left_delivery p{
+    font-size: 32px;
+    font-weight: bold;
+}
+.right_delivery{
+    width: 51%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 110px;
+}
+.delivery_but{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    cursor: pointer;
+
+}
+.delivery_but{
+    width: 340px;
+    height: 58px;
+}
+.delivery_but button{
+    width: 155px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #B59571;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.but2 button{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.sec4{
+    width: 80%;
+    height: 750px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 320px;
+}
+.contacts{
+    width: 16%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.contacts_main{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.left_cont{
+    width: 33%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.topContCard{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.botContCard{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.leftcont_card{
+    width: 32%;
+    height: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+}
+.time_from{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+.leftcont_card p{
+    font-size: 14px;
+    font-weight: normal;
+}
+.mid_cont{
+    width: 33%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #5B5B5B;
+    color: white;
+    z-index: 2;
+}
+.address_phone{
+    width: 80%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.address_phone a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+.add_phoneCard{
+    width: 91%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+.add_phoneCard2{
+    width: 91%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+.add_phoneCard2 img{
+    padding-left: 5px;
+}
+.timework{
+    width: 80%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.timework p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.timework span{
+    font-weight: normal;
+}
+.cont_buttons{
+    width: 80%;
+    height: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.cont_buttons button{
+    width: 150px;
+    height: 45px;
+    border: none;
+    background-color: #B59571;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+.zadat_vopros_but button{
+    width: 150px;
+    height: 45px;
+    border: 1px solid white;
+    background-color: #5B5B5B;
+    cursor: pointer;
+}
+.right_cont{
+    width: 26%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 140px;
+}
+.right_cont iframe{
+    width: 60%;
+    height: 80%;
+    position: absolute;
+    z-index: 1;
+}
+.footer{
+    width: 1920px;
+    height: 90px;
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer ul li{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.open_menu{
+    width: 1920px;
+    height: 955px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    flex-direction: column;
+}
+.logo_menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 20%;
+}
+.logo_menu ul{
+    width: 15%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+}
+.logo_menu ul li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+.navigation{
+    width: 80%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation ul{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+}
+.navigation ul li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.navigation ul li button{
+    width: 150px;
+    height: 45px;
+    background-color: #B59571;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.soc_link{
+    width: 80%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.soc_link ul{
+    width: 15%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.soc_link ul li{
+    cursor: pointer;
+}
+.main_name{
+    width: 1920px;
+    height: 955px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('Rectangle 30.png');
+    background-size: cover;
+}
+.main_name h1{
+    margin-bottom: 120px;
+    margin-right: 430px;
+    color: white;
+    font-size: 42px;
+}
+.modal_overlay{
+    position: fixed;
+    background-color: rgba(51,51,51, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    top: 0; left: 0; right: 0; bottom: 0;
+}
+.modal_window{
+    width: 22%;
+    height: 60%;
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.modal_close{
+    width: 100%;
+    height: 9%;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+}
+.modal_lofo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.res_name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.res_name p{
+    font-size: 20px;
+    color: white;
+}
+.modal_input{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.col_input{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.col_input input{
+    width: 85%;
+    height: 55px;
+    background-color: #333333;
+    border: 1px solid rgba(255,255,255, 0.4);
+    padding-left: 10px;
+}
+.col_input input::placeholder{
+    color: white;
+}
+.row_input{
+    width: 80%;
+    height: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.row_input input{
+    width: 39%;
+    height: 50px;
+    background-color: #333333;
+    border: 1px solid rgba(255,255,255, 0.4);
+    padding-left: 10px;
+}
+.row_input input::placeholder{
+    color: white;
+}
+.but_reserve{
+    width: 80%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.but_reserve button{
+    background-color: #B59571;
+    color: white;
+    border: none;
+    width: 50%;
+    height: 30%;
+    cursor: pointer;
+}
+.main_delivery{
+    width: 1920px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.gray_nav{
+    width: 6%;
+    height: 100%;
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+}
+.gray_top{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.gray_bot{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.gray_bot ul{
+    list-style: none;
+}
+
+.right_side{
+    width: 94%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.nav_info{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin-right: 300px;
+}
+.nav_info ul{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+.nav_info ul li a{
+    text-decoration: none;
+    color: black;
+}
+.choice_of_foods{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.delivery_nav{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+}
+.delivery_nav ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.delivery_nav ul li{
+    width: auto;
+    height: 100%;
+}
+.delivery_nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.focus_menu{
+    width: auto;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.breakfast_cards{
+    width: 90%;
+    height: 1030px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+.menu_card{
+    width: 23%;
+    height: 42%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.menu_card a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 35px;
+}
+.menucard_bot{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: auto;
+}
+.menucard_bot h3{
+    font-size: 26px;
+}
+.menucard_bot button{
+    width: 145px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    background-color: #B59571;
+    color: white;
+    cursor: pointer;
+}
+.cont_delivery{
+    width: 80%;
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 350px;
+    margin-left: 115px;
+}
+.contacts2{
+    width: 16%;
+    height: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 60%;
+}
+.logo_pay{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.main_dishcard{
+    width: 1920px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.dish_card{
+    width: 90%;
+    height: 120%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 30px;
+}
+.dish_left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 27%;
+    height: 465px;
+    margin-top: 15px;
+}
+.dish_left img{
+    width: 407px;
+    height: 305px;
+}
+.dish_img{
+    width: 104%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.dish_img img{
+    width: 120px;
+    height: 120px;
+}
+.dish_right{
+    width: 40%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+.topright_dish{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.title_dish{
+    width: 100%;
+    height: 30%;
+}
+.title_dish img{
+    margin-top: 25px;
+}
+.price_weight{
+    width: 22%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.price_weight h4{
+    font-weight: normal;
+}
+.price_weight h3{
+    font-size: 22px;
+}
+.col_porciy{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 45%;
+}
+.col_porciy p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.col_porciy img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.dish_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    width: 80%;
+    height: 30%;
+}
+.dish_buttons button{
+    width: 125px;
+    height: 46px;
+    background-color: #B59571;
+    color: white;
+    border: none;
+}
+.kolvo_porciy{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+    height: 100%;
+    border: 1px solid rgba(51,51,51, 0.2)
+}
+.botright_dish{
+    width: 75%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.more_taste{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 45%;
+    margin-top: 20px;
+}
+.left_moretaste{
+    display: flex;
+    width: 80%;
+    height: 30%;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.left_moretaste h4{
+    font-size: 14px;
+    color: rgba(51,51,51,0.5);
+}
+.left_moretaste h3{
+    margin-top: 5px;
+    font-weight: 4px;
+}
+.right_moretaste{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.right_moretaste input{
+    width: 23px;
+    height: 23px;
+}
+.cont_dish{
+    width: 85%;
+    height: 777px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contacts3{
+    width: 16%;
+    height: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 60%;  
+}
